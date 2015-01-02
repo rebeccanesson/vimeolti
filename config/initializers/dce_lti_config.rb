@@ -38,7 +38,7 @@ DceLti::Engine.setup do |lti|
     tool_config.canvas_privacy_public!
     tool_config.canvas_editor_button!(
       url: tool_config.launch_url,
-      icon_url: "https://vimeo-lti.herokuapp.com/vimeo-icon.png",
+      icon_url: "https://vimeo-embed-lti.herokuapp.com/vimeo-icon.jpg",
       text: 'Vimeo',
       selection_width: 500,
       selection_height: 260,
